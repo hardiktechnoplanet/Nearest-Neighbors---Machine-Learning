@@ -1,0 +1,12 @@
+(a) Optical character recognition (OCR)
+How does the the classification error of the 1-Nearest Neightbor for the MNIST dataset change with the 
+number of training examples? Plot the n-fold cross validation error for 1000 training examples where
+n = [3; 10; 50; 100; 1000]. 
+(b) Iris plant recognition
+Within the working directory, run iris1NNboundary in Octave or include("iris1NNboundary.jl") in Julia to 
+produce a plot of the decision boundary of 1-Nearest Neighbors classifier. 
+The iris data set has 150 examples and 3 classes. Now randomly choose m examples, m = [10; 20; 30; 50]
+and flip the class label of each of the examples. For instance if the true class label of example i is 1
+then replace the class label with either 2 or 3. Now we will have 4 modified datasets. For each of the
+modified datasets, run the k-NN algorithm with k = 3 and then plot the decision boundary. Also report
+the training error.
